@@ -4,10 +4,14 @@ class Point:
         self._x = x
         self._y = y
 
-    @property
-    def x(self):
+    def get_x(self):
         return self._x
 
-    @property
-    def y(self):
+    def set_x(self, value):
+        self._x = value
+
+    def get_y(self):
         return self._y
+
+    def set_y(self, value):
+        self._y = value
