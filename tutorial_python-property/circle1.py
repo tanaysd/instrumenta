@@ -24,3 +24,8 @@ class Circle:
         print("Deleting radius")
         del self._radius
         
+    @property
+    def area(self):
+        import math
+        pi = math.pi
+        return float(round(pi * self._radius ** 2), 3)
