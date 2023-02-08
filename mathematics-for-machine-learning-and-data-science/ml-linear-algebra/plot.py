@@ -35,3 +35,6 @@ def plot_lines(M):
     plt.gca().set_aspect("equal")
 
     plt.show()
+
+def plot_lines_2(M):
+    pass
